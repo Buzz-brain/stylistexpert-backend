@@ -1,6 +1,6 @@
-# AI Fashion Stylist Backend
+# StylistExpert Backend
 
-A robust rule-based expert system backend for fashion style advice, built with FastAPI and Python.
+A robust rule-based expert system backend for StylistExpert, built with FastAPI and Python.
 
 ## Features
 
