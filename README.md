@@ -136,4 +136,11 @@ This project is licensed under the MIT License. See the [LICENSE](../LICENSE) fi
 
 ---
 
+## 🧑‍💻 Author
+
+**Nduoma Chinomso Christian**  
+_AKA Buzz Brain_
+
+---
+
 > Built with ❤️ for fashion lovers everywhere.
