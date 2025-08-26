@@ -1,65 +1,77 @@
-# StylistExpert Backend
 
-A robust rule-based expert system backend for StylistExpert, built with FastAPI and Python.
+# 🧠 StylistExpert Backend
 
-## Features
+This is the backend for **StylistExpert** 
+A robust, rule-based expert system for fashion recommendations, built with FastAPI and Python.
 
-- **Intelligent Style Recommendations**: Rule-based expert system with forward chaining inference
-- **Comprehensive API**: Accepts detailed user profiles and returns personalized recommendations
-- **Test Suite**: Pytest-based tests for rules and API endpoints
+---
 
-## Tech Stack
-- **FastAPI** - Modern, fast web framework for building APIs
-- **Python 3.10+** - Core language
-- **Pydantic** - Data validation using Python type annotations
-- **Pytest** - Testing framework
+## 🚩 Features
 
-## Setup Instructions
+- **Intelligent Recommendations:** Rule-based expert system with forward chaining inference
+- **Comprehensive API:** Accepts detailed user profiles, returns tailored advice
+- **Test Suite:** Pytest-based tests for rules and API endpoints
 
-1. Navigate to the backend directory:
+---
+
+## 🛠️ Tech Stack
+
+- **FastAPI** (API framework)
+- **Python 3.10+**
+- **Pydantic** (data validation)
+- **Pytest** (testing)
+
+---
+
+## 🚀 Getting Started
+
+1. **Navigate to the backend directory:**
    ```bash
    cd backend
    ```
-2. Install Python dependencies:
+2. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
-3. Start the FastAPI server:
+3. **Start the FastAPI server:**
    ```bash
    uvicorn main:app --reload --host 0.0.0.0 --port 8000
    ```
 
-The API will be available at `http://localhost:8000`
-- Interactive API docs: `http://localhost:8000/docs`
-- Alternative docs: `http://localhost:8000/redoc`
+   The API will be available at [http://localhost:8000](http://localhost:8000)
+   - Interactive docs: `/docs`
+   - Alternative docs: `/redoc`
 
-## Running Tests
+---
 
-Run backend tests with:
+## 🧪 Running Tests
+
 ```bash
 python -m pytest test_engine.py -v
 ```
 
-## API Usage
+---
 
-### POST /api/recommend
+## 📡 API Usage
 
-Get personalized fashion recommendations based on user preferences.
+### POST `/api/recommend`
 
-**Request Body:**
+Get personalized fashion recommendations.
+
+**Request Example:**
 ```json
 {
   "gender": "female",
   "occasion": "formal",
   "weather": "mild",
-  "body_type": "athletic", 
+  "body_type": "athletic",
   "preferred_style": "classic",
   "color_preference": "neutral",
   "height": "average"
 }
 ```
 
-**Response:**
+**Response Example:**
 ```json
 {
   "recommendations": [
@@ -75,66 +87,54 @@ Get personalized fashion recommendations based on user preferences.
 }
 ```
 
-### Sample cURL Request
+---
 
-```bash
-curl -X POST "http://localhost:8000/api/recommend" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "gender": "male",
-    "occasion": "casual", 
-    "weather": "hot",
-    "body_type": "slim",
-    "preferred_style": "modern"
-  }'
-```
+## 🧠 Knowledge Base
 
-## Knowledge Base
+- **12+ rules** for various fashion scenarios:
+  - Formal, casual, special events, athletic, body type, weather, style preferences
 
-The system uses 12 carefully crafted rules covering various fashion scenarios:
+---
 
-- **Formal occasions** - Professional suits and elegant dresses
-- **Casual wear** - Weather-appropriate comfort styles  
-- **Special events** - Party, wedding, and date night looks
-- **Athletic wear** - Performance and sports styling
-- **Body type considerations** - Flattering silhouettes for different shapes
-- **Weather adaptations** - Hot, cold, and rainy weather styling
-- **Style preferences** - Modern, classic, minimalist, flashy approaches
+## 🏗️ Architecture
 
-## Technical Architecture
+- **Rules Engine:** Forward chaining, confidence scoring, rule merging, fallback system
+- **API:** FastAPI endpoints for recommendations
 
-- **Rules Engine**: Forward chaining, confidence scoring, rule merging, fallback system
-- **API**: FastAPI endpoints for recommendations
+---
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 backend/
-├── main.py         # FastAPI application and rules engine
+├── main.py         # FastAPI app & rules engine
 ├── test_engine.py  # Test suite
 └── requirements.txt
 ```
 
-## Limitations and Future Work
+---
 
-- Static rule base (no machine learning adaptation)
-- Limited cultural/regional style variations
+## 🚧 Limitations & Future Work
+
+- Static rule base (no ML adaptation)
+- Limited cultural/regional diversity
 - Basic image sourcing from Unsplash
-- No real-time fashion trend integration
+- No real-time trend integration
 
-### Future Enhancements
+**Planned:**
 - Machine learning integration
-- Advanced computer vision
-- Social features
+- Computer vision outfit analysis
+- Social/sharing features
 - Shopping integration
 - Personalization engine
-- AR/VR integration
-- Seasonal adaptation
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+- AR/VR try-on
 
 ---
 
-Built with ❤️ for fashion lovers everywhere.
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](../LICENSE) file for details.
+
+---
+
+> Built with ❤️ for fashion lovers everywhere.
