@@ -215,7 +215,7 @@ class FashionExpertSystem:
     
     def forward_chain(self, user_input: UserInput) -> List[Recommendation]:
         """Forward chaining inference engine"""
-        user_dict = user_input.model_dump()
+        user_dict = user_input.dict()
         # Remove None values for cleaner matching
         user_dict = {k: v for k, v in user_dict.items() if v is not None}
         
