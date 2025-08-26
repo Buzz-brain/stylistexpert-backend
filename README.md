@@ -1,8 +1,7 @@
 
 # 🧠 StylistExpert Backend
 
-This is the backend for **StylistExpert** 
-A robust, rule-based expert system for fashion recommendations, built with FastAPI and Python.
+This is the backend for **StylistExpert**, a robust, rule-based expert system for fashion recommendations, built with FastAPI and Python.
 
 ---
 
