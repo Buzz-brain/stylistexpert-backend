@@ -7,7 +7,8 @@ import json
 from pathlib import Path
 import os
 from dotenv import load_dotenv
-
+import logging
+logger = logging.getLogger("uvicorn.error")
 
 load_dotenv()
 
@@ -311,6 +312,7 @@ async def get_recommendations(user_input: UserInput):
         recommendations = expert_system.forward_chain(user_input)
         return RecommendationResponse(recommendations=recommendations)
     except Exception as e:
+        logger.error(f"Error in /api/recommend: {e}", exc_info=True)
         raise HTTPException(status_code=500, detail=f"Error generating recommendations: {str(e)}")
 
 @app.get("/api/rules")
