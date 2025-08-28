@@ -63,7 +63,7 @@ KNOWLEDGE_BASE = {
                 "explanation": "Classic tailored silhouette for formal occasions. Navy is versatile and flattering for most body types."
             },
             "confidence": 0.95,
-            "images": ["https://source.unsplash.com/800x600/?mens,suit,navy"]
+            "images": ["https://res.cloudinary.com/df2q6gyuq/image/upload/v1756373710/mens-suit-navy_vshno9.png"]
         },
         {
             "id": "R2",
@@ -74,7 +74,7 @@ KNOWLEDGE_BASE = {
                 "explanation": "A structured dress or blazer suit projects confidence and works well for formal settings."
             },
             "confidence": 0.95,
-            "images": ["https://source.unsplash.com/800x600/?women,formal,dress"]
+            "images": ["https://res.cloudinary.com/df2q6gyuq/image/upload/v1756374093/women-formal-dress_powxyg.png"]
         },
         {
             "id": "R3",
@@ -85,7 +85,7 @@ KNOWLEDGE_BASE = {
                 "explanation": "Breathable fabrics keep you cool while maintaining a stylish, effortless look."
             },
             "confidence": 0.9,
-            "images": ["https://source.unsplash.com/800x600/?casual,outfit,summer"]
+            "images": ["https://res.cloudinary.com/df2q6gyuq/image/upload/v1756373704/casual-outfit-summer_nyhtbx.jpg"]
         },
         {
             "id": "R4",
@@ -96,7 +96,7 @@ KNOWLEDGE_BASE = {
                 "explanation": "Layering provides warmth and texture which elevates casual outfits."
             },
             "confidence": 0.9,
-            "images": ["https://source.unsplash.com/800x600/?sweater,outfit,winter"]
+            "images": ["https://res.cloudinary.com/df2q6gyuq/image/upload/v1756373699/sweater-outfit-winter_wdeqc3.jpg"]
         },
         {
             "id": "R5",
@@ -107,7 +107,7 @@ KNOWLEDGE_BASE = {
                 "explanation": "High impact materials and accessories create a memorable party look."
             },
             "confidence": 0.92,
-            "images": ["https://source.unsplash.com/800x600/?party,outfit,glam"]
+            "images": ["https://res.cloudinary.com/df2q6gyuq/image/upload/v1756373697/party-outfit-glam_fjti5k.jpg"]
         },
         {
             "id": "R6",
@@ -118,7 +118,7 @@ KNOWLEDGE_BASE = {
                 "explanation": "Function first, but choose sporty silhouettes and color pops to look intentional."
             },
             "confidence": 0.98,
-            "images": ["https://source.unsplash.com/800x600/?sportswear,athlete"]
+            "images": ["https://res.cloudinary.com/df2q6gyuq/image/upload/v1756374092/sportswear-athlete_a0ehji.png"]
         },
         {
             "id": "R7",
@@ -129,7 +129,7 @@ KNOWLEDGE_BASE = {
                 "explanation": "Long lines and defined waist create a balanced silhouette while remaining comfortable."
             },
             "confidence": 0.88,
-            "images": ["https://source.unsplash.com/800x600/?plus-size,stylish,outfit"]
+            "images": ["https://res.cloudinary.com/df2q6gyuq/image/upload/v1756374093/plus-size-stylish-outfit_pszs6n.png"]
         },
         {
             "id": "R8",
@@ -140,7 +140,7 @@ KNOWLEDGE_BASE = {
                 "explanation": "Fitted shapes emphasize your proportions and create a sleek modern look."
             },
             "confidence": 0.85,
-            "images": ["https://source.unsplash.com/800x600/?slim,men,outfit"]
+            "images": ["https://res.cloudinary.com/df2q6gyuq/image/upload/v1756373702/slim-men-outfit_ls9kbg.jpg"]
         },
         {
             "id": "R9",
@@ -151,7 +151,7 @@ KNOWLEDGE_BASE = {
                 "explanation": "Waterproof outerwear keeps the look polished and practical in wet conditions."
             },
             "confidence": 0.9,
-            "images": ["https://source.unsplash.com/800x600/?raincoat,outfit"]
+            "images": ["https://res.cloudinary.com/df2q6gyuq/image/upload/v1756373699/sweater-outfit-winter_wdeqc3.jpg"]
         },
         {
             "id": "R10",
@@ -162,7 +162,7 @@ KNOWLEDGE_BASE = {
                 "explanation": "Traditional pieces are respectful and often best for weddings that expect cultural attire."
             },
             "confidence": 0.93,
-            "images": ["https://source.unsplash.com/800x600/?wedding,traditional,attire"]
+            "images": ["https://res.cloudinary.com/df2q6gyuq/image/upload/v1756373697/wedding-traditional-attire_hrbvmh.jpg"]
         },
         {
             "id": "R11",
@@ -173,7 +173,7 @@ KNOWLEDGE_BASE = {
                 "explanation": "High waisted bottoms and V necks elongate the torso and balance proportions."
             },
             "confidence": 0.82,
-            "images": ["https://source.unsplash.com/800x600/?fashion,proportions"]
+            "images": ["https://res.cloudinary.com/df2q6gyuq/image/upload/v1756373696/fashion-proportions_tph8ks.jpg"]
         },
         {
             "id": "R12",
@@ -184,7 +184,7 @@ KNOWLEDGE_BASE = {
                 "explanation": "Monochrome palettes with textural contrast achieve a minimalist but rich outfit."
             },
             "confidence": 0.8,
-            "images": ["https://source.unsplash.com/800x600/?minimalist,outfit,black"]
+            "images": ["https://res.cloudinary.com/df2q6gyuq/image/upload/v1756373705/minimalist-outfit-black_zaiiha.jpg"]
         }
     ]
 }
